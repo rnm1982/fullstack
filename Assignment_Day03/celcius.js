@@ -1,6 +1,6 @@
 const prompt=require("prompt-sync")();
-/* // Javascript Program to Convert Celsius to Fahrenheit 
-const prompt=require("prompt-sync")();
+// Javascript Program to Convert Celsius to Fahrenheit 
+// const prompt=require("prompt-sync")();
 function celsiusToFahrenheit(celsius) {
     const fahrenheit = celsius * 9/5 + 32;
     return fahrenheit;
@@ -9,9 +9,9 @@ function celsiusToFahrenheit(celsius) {
   // Example usage:
   const celsiusValue = parseInt(prompt("Enter temperature in celcius: ")); // Replace with the Celsius value you want to convert
   const convertedValue = celsiusToFahrenheit(celsiusValue);
-  console.log(`${celsiusValue}C Cis equal to ${convertedValue}F`); */
+  console.log(`${celsiusValue}C is equal to ${convertedValue}F`);
 
-// Approach:2
+/* // Approach:2
 // program to convert celsius to fahrenheit
 // ask the celsius value to the user 
 const celsius = prompt("Enter a celsius value: ");
@@ -20,4 +20,4 @@ const celsius = prompt("Enter a celsius value: ");
 const fahrenheit = (celsius * 1.8) + 32
 
 // display the result
-console.log(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
+console.log(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`); */

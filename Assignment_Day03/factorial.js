@@ -1,5 +1,5 @@
 const prompt=require('prompt-sync')();
-/* 
+ 
 // Approach:1
 function factorial(number) {
     if (number < 0) {
@@ -18,9 +18,9 @@ function factorial(number) {
   // Example usage:
   const num = parseInt(prompt("Enter number to calculate factorial: ")); // Replace with any number for which you want to find the factorial
   const result = factorial(num);
-  console.log(`The factorial of ${num} is: ${result}`); */
+  console.log(`The factorial of ${num} is: ${result}`); 
 
-  // Approach:2
+/*   // Approach:2
   // program to find the factorial of a number
 
 // take input from the user
@@ -44,4 +44,4 @@ else {
     }
     console.log(`The factorial of ${number} is ${fact}.`);
 }
-  
+ */
