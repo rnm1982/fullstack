@@ -2,7 +2,7 @@
 function getData() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        const success = true; // Simulating success or failure (true for success, false for failure)
+        const success = false; // Simulating success or failure (true for success, false for failure)
   
         if (success) {
           resolve('Data successfully fetched!');

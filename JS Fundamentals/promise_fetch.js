@@ -1,6 +1,6 @@
 // Using Fetch API with Promises
 function fetchData() {
-    return fetch('https://jsonplaceholder.typicode.com/posts/1') // Fetch data from an API endpoint
+    return fetch('https://jsonplaceholder.typicode.com/posts/1910201201') // Fetch data from an API endpoint
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
